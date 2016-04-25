@@ -782,7 +782,6 @@ class Selection extends Model
     {textChanged} = e
 
     unless oldHeadScreenPosition.isEqual(newHeadScreenPosition)
-      @cursor.goalColumn = null
       cursorMovedEvent = {
         oldBufferPosition: oldHeadBufferPosition
         oldScreenPosition: oldHeadScreenPosition
