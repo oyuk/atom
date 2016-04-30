@@ -23,6 +23,7 @@ class AtomWindow
 
     options =
       show: false
+      transpaernt: true
       title: 'Atom'
       'web-preferences':
         'direct-write': true
